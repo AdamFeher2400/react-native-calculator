@@ -132,7 +132,8 @@ export class Display extends React.Component<DisplayProps, State> {
             {
               fontSize: height,
               height,
-              lineHeight: height,
+              textAlignVertical: 'center',
+              fontFamily: 'Lota Grotesque Alt 3',
               // @ts-ignore
               color: style.color
             }
