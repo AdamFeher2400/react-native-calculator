@@ -24,7 +24,7 @@ export class Button extends React.Component<ButtonProps> {
     return (
       <TouchableOpacity style={[style]} onPressIn={onPress}>
         <View style={styles.container}>
-          <Text style={textStyle}>{text}</Text>
+          <Text style={[textStyle, {fontFamily: 'Lota Grotesque Alt 3'}]}>{text}</Text>
         </View>
       </TouchableOpacity>
     )
